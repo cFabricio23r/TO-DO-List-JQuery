@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="ToDoCSS.css">
+	<link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<title>To Do List</title>
+</head>
+
+<body>
+	<div class="container">
+		<div>
+			<div class="title">
+				<h1>TO-DO List</h1>
+			</div>
+		</div>
+
+		<div>
+			<div>
+				<p>Ingresa el texto en el campo para añadirlo a tu lista</p>
+				<p>Selecciona para marcar la tarea realizada</p>
+				<p>Selecciona X para borrar la tarea</p>
+			</div>
+		</div>
+
+		<div>
+			<div>
+				<input id="tarea" type="text" placeholder="Ingresa Tarea..." maxlength="27">
+				<button id="Ingresar">Ingresar</button>
+			</div>
+		</div>
+	</div>
+	<div class="container-2">
+		<div class="Lista">
+			<ul>
+			</ul>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script type="text/javascript" src="ToDoJS.js"></script>
+</body>
+
+</html>
